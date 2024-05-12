@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import carRentalImg from "@/public/carRental.png";
 import petAdoptionImg from "@/public/petAdoption.png";
-import snakeAndLadderImg from "@/public/snakeAndLadder.png
+import snakeAndLadderImg from "@/public/snakeAndLadder.png";
 
 export const links = [
   {
