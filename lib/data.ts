@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import carRentalImg from "@/public/carRental.png";
 import petAdoptionImg from "@/public/petAdoption.png";
-import snakeAndLadderImg from "@/public/snakeAndLadder.png";
+import snakeAndLadderImg from "@/public/snakeAndLadder2.png";
 
 export const links = [
   {
@@ -62,24 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Car Rental",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "Developed a full-stack car rental web application. Led a team of 6 members as the Scrum Master. User-friendly interfaces that allows users to book any vehicles easily.",
+    tags: ["React", "Next.js", "MongoDB", "TailwindCSS", "DaisyUI"],
     imageUrl: carRentalImg,
   },
   {
-    title: "rmtDev",
+    title: "Pet Adoption",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Developed a pet adoption web application as the front-end developer. Implemented an authentication system.",
+    tags: ["HTML", "CSS", "JavaScript", "PHP", "Bootstrap", "Font Awesome"
+    ],
     imageUrl: petAdoptionImg,
   },
   {
-    title: "Word Analytics",
+    title: "Snake and Ladder Game",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "Developed a simple user interface within the terminal for seamless interaction with the game. Players can engage with the game using the keyboard.",
+    tags: ["Java", "Eclipse"],
     imageUrl: snakeAndLadderImg,
   },
 ] as const;
