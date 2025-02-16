@@ -56,7 +56,7 @@ export default function Intro() {
             <span className='font-bold'>Hello, I'm <span className=' text-sky-600 underline'>Johnny!</span></span>
         </motion.h1>
         <motion.div 
-        className='flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row'
+        className='flex flex-col items-center justify-center gap-4 px-4 text-lg font-medium sm:flex-row'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y:0 }}
         transition={{
@@ -64,25 +64,25 @@ export default function Intro() {
         }}>
             <Link 
             href="#contact"
-            className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 
-            hover:scale-110 hover:bg-gray-950 active:scale-105 transition'
+            className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none duration-300
+            hover:scale-110 hover:bg-gray-950 active:scale-105 transition-all'
             onClick={() => {
                 setActiveSection('Contact');
                 setTimeOfLastClick(Date.now());
             }}>Contact me here
-                <BsArrowRight className='opacity-70 group-hover:translate-x-1'/>
+                <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition-all duration-300'/>
             </Link>
-            <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 
+            <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none duration-300 
             hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10' href='/Resume_Johnny_Dang_2024.pdf' download>Download Resume 
-                <HiDownload className='opacity-60 group-hover:translate-y-1 transition'/>
+                <HiDownload className='opacity-60 group-hover:translate-y-1 transition-all duration-300'/>
             </a>
-            <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] 
-            hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
+            <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full duration-300 
+            hover:scale-[1.15] hover:text-[#0077B5] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-[#0077B5]'
             href='https://www.linkedin.com/in/johnnydang22/' target='_blank'>
                 <BsLinkedin/>
             </a>
-            <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.30rem] focus:scale-[1.15] 
-            hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
+            <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.30rem] duration-300 
+            hover:scale-[1.15] hover:text-[#24292e] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60 dark:hover:text-[#24292e]'
             href='https://github.com/Johnny8607' target='_blank'>
                 <FaGithubSquare/>
             </a>

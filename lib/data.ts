@@ -1,9 +1,13 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
+import { FaUsersCog } from "react-icons/fa";
 import carRentalImg from "@/public/carRental.png";
 import petAdoptionImg from "@/public/petAdoption.png";
 import snakeAndLadderImg from "@/public/snakeAndLadder2.png";
+import conuhacksImg from "@/public/conuhacks.png";
+import mailingListImg from "@/public/mailinglist.png";
+import registrationImg from "@/public/registration.png";
 
 export const links = [
   {
@@ -37,7 +41,7 @@ export const experiencesData = [
     title: "Software Engineering student",
     location: "Concordia University",
     description:
-      "Currently pursuing a Bachelor in Software Engineering.",
+      "Pursuing a Bachelor in Software Engineering.",
     icon: React.createElement(LuGraduationCap),
     date: "2022 - present",
   },
@@ -45,13 +49,50 @@ export const experiencesData = [
     title: "Front-End Developer Intern",
     location: "Genetec",
     description:
-      "I worked as a front-end developer intern within the UX team for 4 months. I have gained experience with popular frameworks such as React, Angular, and Vue.",
+      "Built new UI components in React, Angular, and Vue, expanding Genetec’s Gelato design system. Reduced bugs by 30% through maintenance and testing. Optimized codebase, cutting user search time by 60%. Collaborated on peer code reviews to improve components.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023",
+    date: "Fall 2023",
+  },
+  {
+    title: "Back-End Developer Intern",
+    location: "Intact Insurance",
+    description:
+      "Optimized backend code with Java/Spring, improving performance. Wrote unit tests with Mockito/JUnit for data feeds processing 15,000 policies. Fixed bugs and added features to ContactPL, enhancing functionality for 2,308 brokers.",
+    icon: React.createElement(CgWorkAlt),
+    date: "Fall 2024",
+  },
+  {
+    title: "VP-Technology & Design",
+    location: "HackConcordia",
+    description:
+      "Led a team of six developers to build the infrastructure for ConUHacks 2025. Developed a scalable registration app for 2,000+ applicants using Next.js and MongoDB. Designed and built the ConUHacks website with Figma, Next.js, and Framer Motion. Achieved a club record with 180+ project submissions on Devpost.",
+    icon: React.createElement(FaUsersCog),
+    date: "May 2024 - present",
   },
 ] as const;
 
 export const projectsData = [
+  {
+    title: "ConuHacks IX Website",
+    description:
+      "Designed and developed the official ConUHacks IX website, attracting over 800 participants to the event.",
+    tags: ["React", "Next.js", "MongoDB", "TailwindCSS", "Figma", "Framer Motion"],
+    imageUrl: conuhacksImg,
+  },
+  {
+    title: "Registration App",
+    description:
+      "Designed and developed ConUHacks' registration app, streamlining the registration process for over 2200 participants.",
+    tags: ["React", "Next.js", "MongoDB", "TailwindCSS", "Figma", "Framer Motion"],
+    imageUrl: registrationImg,
+  },
+  {
+    title: "Mailing List",
+    description:
+      "Built and designed ConUHacks' first mailing list application, growing to over 600 subscribers.",
+    tags: ["React", "Next.js", "MongoDB", "TailwindCSS", "Figma", "Framer Motion"],
+    imageUrl: mailingListImg,
+  },
   {
     title: "Car Rental",
     description:
@@ -87,9 +128,14 @@ export const skillsData = [
   "Angular",
   "Node.js",
   "Next.js",
-  "Git",
+  "SpringBoot",
+  "Junit",
+  "Jest",
+  "Framer Motion",
   "TailwindCSS",
   "Bootstrap5",
   "MongoDB",
-  "Framer Motion",
+  "Git",
+  "Npm",
+  "Maven"
 ] as const;
