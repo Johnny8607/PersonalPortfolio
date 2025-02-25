@@ -73,7 +73,7 @@ export default function Intro() {
                 <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition-all duration-300'/>
             </Link>
             <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none duration-300 
-            hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10' href='/Resume_Johnny_Dang_2024.pdf' download>Download Resume 
+            hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10' href='/Resume_JohnnyD_2025.pdf' download>Download Resume 
                 <HiDownload className='opacity-60 group-hover:translate-y-1 transition-all duration-300'/>
             </a>
             <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full duration-300 
